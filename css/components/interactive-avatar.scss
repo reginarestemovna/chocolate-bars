@@ -1,0 +1,36 @@
+.interactive-avatar {
+    width: 80px;
+    height: 80px;
+    // border: 6px solid #0f5a47;
+    border: 6px solid transparent;
+    border-radius: 50%;
+    overflow: hidden;
+    position: relative;
+
+    &--active {
+        border-color: #0f5a47;
+    }
+}
+
+.interactive-avatar--link {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    display: block;
+}
+
+.reviews__avatar-img {
+    display: block;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.reviews__swicher {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
